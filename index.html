@@ -1,13 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Odin Signup Excercise</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Odin Signup Excercise</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="body">
+      <div class="page">
+        <div class="side-gfx">
+          <div class="logo-holder">
+            <div class="logo-gfx"><img src="odin-lined.png" /></div>
+            <div class="logo-txt">Odin</div>
+          </div>
+        </div>
+
+        <div class="contents">
+          <form>
+            <div class="form-holder">
+              <h2>Let's do this!</h2>
+              <div class="form-grid">
+                <div class="form-field form-first-name">
+                  <label for="firstName">First Name</label>
+                  <input type="text" name="firstName" id="firstName" required />
+                </div>
+                <div class="form-field form-last-name">
+                  <label for="lastName">Last Name</label>
+                  <input type="text" name="lastName" id="lastName" required />
+                </div>
+                <div class="form-field form-email">
+                  <label for="email">eMail</label>
+                  <input type="email" name="email" id="email" required />
+                </div>
+                <div class="form-field form-phone-number">
+                  <label for="phone">Phone Number</label>
+                  <input type="number" name="phone" id="phone" />
+                </div>
+                <div class="form-field form-password">
+                  <label for="password">Password</label>
+                  <input type="password" name="password" id="password" />
+                </div>
+                <div class="form-field form-repeat-password">
+                  <label for="confirmPassword">Confirm Password</label>
+                  <input
+                    type="password"
+                    name="confirmPassword"
+                    id="confirmPassword"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="form-action">
+              <button type="submit" class="btn-submit">Create Account</button>
+              <p>Already have an account? <a>Log in</a></p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
